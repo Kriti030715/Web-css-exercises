@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Am I</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #006699;
+            text-align: center;
+        }
+
+        .info {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 70%;
+            margin: auto;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Who Am I</h1>
+
+    <div class="info">
+        <p><span class="label">Full Name:</span> <span style="color: darkblue;">KRITHGAH A/P GUNASEGARAN</span></p> <!-- Inline style -->
+        <p><span class="label">Age:</span> 22 years old</p>
+        <p><span class="label">Educational Background:</span></p>
+        <ul>
+            <li>I finished my SPM in 2020.</li>
+            <li>Then continued my studies in STPM from 2021 to 2023.</li>
+            <li>Now I'm currently doing my degree in University Malaysia Perlis (UniMAP).</li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
