@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <title>Who Am I</title>
 
-    <!-- Internal CSS -->
+    p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
     <style>
         body {
             background-color: #f9f9f9;
@@ -32,7 +36,10 @@
         }
     </style>
 
-    <!-- External CSS -->
+    ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
